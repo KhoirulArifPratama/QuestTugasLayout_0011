@@ -31,3 +31,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.tugas3.ui.theme.Tugas3Theme
+
+/**
+ * Komponen Card (Widget) reusable yang digunakan oleh keseluruhan Card.
+ */
+@Composable
+fun UserCard(
+    backgroundColor: Color,
+    name: String,
+    address: String,
+    modifier: Modifier = Modifier,
+    phone: String? = null,
+    nameFontStyle: FontStyle = FontStyle.Normal,
+    nameFontWeight: FontWeight = FontWeight.Bold,
+    phoneColor: Color = colorResource(id = R.color.card_text_phone_cyan),
+    addressColor: Color = colorResource(id = R.color.card_text_address_yellow)
+) {
+}
