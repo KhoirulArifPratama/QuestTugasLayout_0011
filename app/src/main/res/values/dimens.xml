@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paddings & Margins -->
+    <dimen name="padding_screen_top">36dp</dimen>
+    <dimen name="padding_screen_bottom">16dp</dimen>
+    <dimen name="padding_screen_horizontal">20dp</dimen>
+
+    <dimen name="card_padding_vertical">12dp</dimen>
+    <dimen name="card_padding_horizontal">16dp</dimen>
+
+    <!-- Spacers -->
+    <dimen name="spacer_title_subtitle">4dp</dimen>
+    <dimen name="spacer_header_cards">24dp</dimen>
+    <dimen name="spacer_between_cards">14dp</dimen>
+    <dimen name="spacer_logo_text">12dp</dimen>
+    <dimen name="spacer_text_lines">2dp</dimen>
+
+    <!-- Card Specs -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="logo_size">64dp</dimen>
+
+    <!-- Font Sizes -->
+    <dimen name="font_size_header_title">22sp</dimen>
+    <dimen name="font_size_header_subtitle">13sp</dimen>
+    <dimen name="font_size_card_name">16sp</dimen>
+    <dimen name="font_size_card_phone">12sp</dimen>
+    <dimen name="font_size_card_address">12sp</dimen>
+    <dimen name="font_size_footer">11sp</dimen>
+</resources>
