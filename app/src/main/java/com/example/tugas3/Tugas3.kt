@@ -245,3 +245,11 @@ fun Tugas3Screen(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun Tugas3ScreenPreview() {
+    Tugas3Theme {
+        Tugas3Screen()
+    }
+}
