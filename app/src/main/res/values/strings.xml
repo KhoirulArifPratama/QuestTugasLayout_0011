@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas3</string>
+
+    <!-- Header -->
+    <string name="header_title">Teknologi Informasi</string>
+    <string name="header_subtitle">Universitas Muhammadiyah Yogyakarta</string>
+
+    <!-- Image Content Description -->
+    <string name="logo_description">Logo UMY</string>
+    <string name="background_description">Background UMY</string>
+
+    <!-- Card 1: Khoirul Arif Pratama -->
+    <string name="card1_name">Khoirul Arif Pratama</string>
+    <string name="card1_phone">081122334455</string>
+    <string name="card1_address">Turi, Sleman</string>
+
+    <!-- Card 2: Ole Romeny -->
+    <string name="card2_name">Ole Romeny</string>
+    <string name="card2_phone">081234567891</string>
+    <string name="card2_address">Kasihan, Bantul</string>
+
+    <!-- Card 3: Jay Idzes -->
+    <string name="card3_name">Jay Idzes</string>
+    <string name="card3_phone">082345678902</string>
+    <string name="card3_address">Depok, Sleman</string>
+
+    <!-- Card 4: Emil Audero -->
+    <string name="card4_name">Emil Audero</string>
+    <string name="card4_phone">085678901234</string>
+    <string name="card4_address">Gamping, Sleman</string>
+
+    <!-- Footer -->
+    <string name="footer_copyright">Copyright 2026</string>
+</resources>
