@@ -234,6 +234,14 @@ fun Tugas3Screen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.weight(1f))
+
+            // Footer
+            Text(
+                text = stringResource(id = R.string.footer_copyright),
+                color = footerTextColor,
+                fontSize = footerFontSize,
+                textAlign = TextAlign.Center
+            )
         }
     }
 }
