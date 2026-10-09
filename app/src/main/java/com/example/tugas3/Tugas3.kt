@@ -58,4 +58,20 @@ fun UserCard(
     val nameFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_name).toSp() }
     val phoneFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_phone).toSp() }
     val addressFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_address).toSp() }
+
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(cardCornerRadius),
+        colors = CardDefaults.cardColors(containerColor = backgroundColor),
+        elevation = CardDefaults.cardElevation(defaultElevation = cardElevation)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = cardPaddingVertical, horizontal = cardPaddingHorizontal),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+        }
+    }
 }
