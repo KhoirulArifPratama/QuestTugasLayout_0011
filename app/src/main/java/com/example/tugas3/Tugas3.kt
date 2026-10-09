@@ -47,4 +47,15 @@ fun UserCard(
     phoneColor: Color = colorResource(id = R.color.card_text_phone_cyan),
     addressColor: Color = colorResource(id = R.color.card_text_address_yellow)
 ) {
+    val logoSize = dimensionResource(id = R.dimen.logo_size)
+    val cardCornerRadius = dimensionResource(id = R.dimen.card_corner_radius)
+    val cardElevation = dimensionResource(id = R.dimen.card_elevation)
+    val cardPaddingVertical = dimensionResource(id = R.dimen.card_padding_vertical)
+    val cardPaddingHorizontal = dimensionResource(id = R.dimen.card_padding_horizontal)
+    val spacerLogoText = dimensionResource(id = R.dimen.spacer_logo_text)
+    val spacerTextLines = dimensionResource(id = R.dimen.spacer_text_lines)
+
+    val nameFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_name).toSp() }
+    val phoneFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_phone).toSp() }
+    val addressFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_card_address).toSp() }
 }
