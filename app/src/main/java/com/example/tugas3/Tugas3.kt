@@ -124,3 +124,30 @@ fun UserCard(
         }
     }
 }
+
+/**
+ * Fungsi Utama Layout
+ */
+@Composable
+fun Tugas3Screen(modifier: Modifier = Modifier) {
+    val headerTitleColor = colorResource(id = R.color.header_title_color)
+    val headerSubtitleColor = colorResource(id = R.color.header_subtitle_color)
+    val footerTextColor = colorResource(id = R.color.footer_text_color)
+
+    val cardBgGrey = colorResource(id = R.color.card_bg_grey)
+    val cardBgPurple = colorResource(id = R.color.card_bg_purple)
+    val cardBgBlue = colorResource(id = R.color.card_bg_blue)
+    val cardBgGreen = colorResource(id = R.color.card_bg_green)
+
+    val paddingScreenTop = dimensionResource(id = R.dimen.padding_screen_top)
+    val paddingScreenBottom = dimensionResource(id = R.dimen.padding_screen_bottom)
+    val paddingScreenHorizontal = dimensionResource(id = R.dimen.padding_screen_horizontal)
+
+    val spacerTitleSubtitle = dimensionResource(id = R.dimen.spacer_title_subtitle)
+    val spacerHeaderCards = dimensionResource(id = R.dimen.spacer_header_cards)
+    val spacerBetweenCards = dimensionResource(id = R.dimen.spacer_between_cards)
+
+    val headerTitleFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_header_title).toSp() }
+    val headerSubtitleFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_header_subtitle).toSp() }
+    val footerFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_footer).toSp() }
+}
