@@ -194,6 +194,46 @@ fun Tugas3Screen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(spacerHeaderCards))
+
+            // Card 1: Khoirul Arif Pratama
+            UserCard(
+                backgroundColor = cardBgGrey,
+                name = stringResource(id = R.string.card1_name),
+                address = stringResource(id = R.string.card1_address),
+                phone = stringResource(id = R.string.card1_phone)
+            )
+
+            Spacer(modifier = Modifier.height(spacerBetweenCards))
+
+            // Card 2: Ole Romeny
+            UserCard(
+                backgroundColor = cardBgPurple,
+                name = stringResource(id = R.string.card2_name),
+                address = stringResource(id = R.string.card2_address),
+                phone = stringResource(id = R.string.card2_phone)
+            )
+
+            Spacer(modifier = Modifier.height(spacerBetweenCards))
+
+            // Card 3: Jay Idzes
+            UserCard(
+                backgroundColor = cardBgBlue,
+                name = stringResource(id = R.string.card3_name),
+                address = stringResource(id = R.string.card3_address),
+                phone = stringResource(id = R.string.card3_phone)
+            )
+
+            Spacer(modifier = Modifier.height(spacerBetweenCards))
+
+            // Card 4: Emil Audero
+            UserCard(
+                backgroundColor = cardBgGreen,
+                name = stringResource(id = R.string.card4_name),
+                address = stringResource(id = R.string.card4_address),
+                phone = stringResource(id = R.string.card4_phone)
+            )
+
+            Spacer(modifier = Modifier.weight(1f))
         }
     }
 }
