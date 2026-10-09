@@ -150,4 +150,30 @@ fun Tugas3Screen(modifier: Modifier = Modifier) {
     val headerTitleFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_header_title).toSp() }
     val headerSubtitleFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_header_subtitle).toSp() }
     val footerFontSize = with(LocalDensity.current) { dimensionResource(id = R.dimen.font_size_footer).toSp() }
+
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+        // Background Image UMY dari Drawable
+        Image(
+            painter = painterResource(id = R.drawable.umy_background),
+            contentDescription = stringResource(id = R.string.background_description),
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        // Konten Utama
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(
+                    top = paddingScreenTop,
+                    bottom = paddingScreenBottom,
+                    start = paddingScreenHorizontal,
+                    end = paddingScreenHorizontal
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+        }
+    }
 }
