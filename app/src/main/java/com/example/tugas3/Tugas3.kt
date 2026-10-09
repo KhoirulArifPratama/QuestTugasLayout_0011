@@ -174,6 +174,26 @@ fun Tugas3Screen(modifier: Modifier = Modifier) {
                 ),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            // Header
+            Text(
+                text = stringResource(id = R.string.header_title),
+                color = headerTitleColor,
+                fontSize = headerTitleFontSize,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center
+            )
+
+            Spacer(modifier = Modifier.height(spacerTitleSubtitle))
+
+            Text(
+                text = stringResource(id = R.string.header_subtitle),
+                color = headerSubtitleColor,
+                fontSize = headerSubtitleFontSize,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center
+            )
+
+            Spacer(modifier = Modifier.height(spacerHeaderCards))
         }
     }
 }
