@@ -72,6 +72,55 @@ fun UserCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            // Logo Kiri
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.logo_description),
+                modifier = Modifier.size(logoSize)
+            )
+
+            Spacer(modifier = Modifier.width(spacerLogoText))
+
+            // Informasi Teks di Tengah
+            Column(
+                modifier = Modifier.weight(1f),
+                horizontalAlignment = Alignment.Start
+            ) {
+                Text(
+                    text = name,
+                    color = colorResource(id = R.color.card_text_white),
+                    fontSize = nameFontSize,
+                    fontWeight = nameFontWeight,
+                    fontStyle = nameFontStyle
+                )
+
+                if (!phone.isNullOrEmpty()) {
+                    Spacer(modifier = Modifier.height(spacerTextLines))
+                    Text(
+                        text = phone,
+                        color = phoneColor,
+                        fontSize = phoneFontSize,
+                        fontWeight = FontWeight.Medium
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(spacerTextLines))
+                Text(
+                    text = address,
+                    color = addressColor,
+                    fontSize = addressFontSize,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+
+            Spacer(modifier = Modifier.width(spacerLogoText))
+
+            // Logo Kanan
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.logo_description),
+                modifier = Modifier.size(logoSize)
+            )
         }
     }
 }
